@@ -6,15 +6,18 @@
    Case Problem 1
 
    Rhetoric in the United States Styles for Media
-   Author: 
-   Date:   
+   Author: Christopher Kim
+   Date:   1.29.19
 
    Filename: ws_media.css
 
 */
 
 /* VideoPlayer Styles */
-
+video {
+    display: block;
+    
+}
 
 
 
