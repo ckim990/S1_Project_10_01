@@ -14,6 +14,7 @@
 */
 
 /* VideoPlayer Styles */
+/* This sets the size and how the video is displayed on the website */
 video {
     display: block;
     width: 90%;
@@ -21,6 +22,7 @@ video {
 
 }
 
+/* This is a media query that displays the video a different way if your device is under 521px */
 @media only screen and (min-width: 521px) {
     video  {
         width: 360px;
@@ -29,9 +31,8 @@ video {
     }
 }
 
-
-
 /* Track Styles */
+/* These display the background of the text as white and the font as 1.3em it also sets the text color as a pink color. */
 ::cue {
     background: rgba(255, 255, 255, 0.8);
     font: 1.3em serif;
